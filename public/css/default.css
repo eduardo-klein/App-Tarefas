@@ -1,0 +1,56 @@
+header {
+	border-bottom: 2px solid #3167dd;
+	display: flex;
+}
+
+header #logo{
+	height: 20vw;
+	margin: 0 auto;
+}
+header #logo{
+	height: 10vh;
+	width: 80vw;
+	margin: 0 auto;
+}
+
+header #logo img{
+	height: 10vh;
+}
+main{
+	margin-left: 3vw;
+	margin-right: 2vw;
+	margin-top: 5vh;
+	min-height: 80vh;
+}
+
+h1 {
+	color:#588dff;
+}
+a {
+	text-decoration: none;
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+#user{
+	padding-left: 25vw;
+}
+
+#body{
+	background-color: rgb(66, 64, 64);
+}
+
+label{
+	color: white;
+}
+
+header{
+	background-color: white
+}
+
+#loginForm{
+	background-color:  rgb(66, 64, 64);
+}
+
+#tarefaItem{
+	
+}

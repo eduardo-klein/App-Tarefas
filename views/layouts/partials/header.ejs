@@ -1,0 +1,20 @@
+<header>
+    <div id="display" class="container-fluid d-flex align-items-center justify-content-between">
+        <div id="logo">
+            <img src="<%- locals.layoutVariables.img %>logo.png">
+        </div>
+
+        <h1 class="col-6 text-center">Gerenciamento de tarefas</h1>
+
+        <div id="user" class="container-fluid align-items-center">
+			<% if(locals.layoutVariables.user){ %>
+				<p class="mb-0">
+					<i class="bi-person" style="font-size: 1rem; color: rgb(81, 80, 82);"></i>
+					<a href="/usuario/perfil/<%- locals.layoutVariables.user.id_usuario %>">
+						<%- locals.layoutVariables.user.nome %>
+					</a>
+				</p>
+			<% } %>
+		</div>
+    </div>
+</header>
