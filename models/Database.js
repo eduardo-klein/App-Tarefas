@@ -11,7 +11,7 @@ async function connect(){
       password : process.env.PASSWORD,
       database: process.env.DATABASE
     });
-  //console.log("Conectou no MySQL!");
+  console.log("Conectou no MySQL!");
   global.connection = connection;
   return connection;
 }
